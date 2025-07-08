@@ -41,7 +41,7 @@
       flex-wrap: wrap;
       justify-content: center;
       margin-right: 10px;
-      gap: 10px;
+      gap: 20px;
     }
 
     .navbar-right a {
@@ -88,61 +88,64 @@
 
 
 
-    
-    .carousel-section {
-      width: 100%;
-      overflow: hidden;
-      margin: 30px 0;
+
+    .oneimg{
+        width: 99vw;
+        height: 60%;
     }
+
+
+
     
-    .carousel-container {
-      width: 100%;
-      position: relative;
-      overflow: hidden;
-    }
+
+
+
+
     
-    .carousel-slide {
+    /* Section: Product Portfolio */
+    .three {
       display: flex;
-      width: 300%;
-      animation: slide 9s infinite;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 10px;
     }
-    
-    .carousel-slide a {
-      width: 100%;
-      flex-shrink: 0;
+
+    .three h2 {
+      margin-bottom: 20px;
     }
-    
-    .carousel-slide img {
-      width: 100%;
-      height: auto;
-      display: block;
+
+    .threeimg {
+      display: flex;
+      justify-content: space-evenly;
     }
-    .im{
-        width: 100vw;
+
+    .thimg {
+        width: 32vw;
         height: 70vh;
+        padding: 3px 3px; 
     }
-    @keyframes slide {
-      0%   { transform: translateX(0%); }
-      33%  { transform: translateX(0%); }
-      36%  { transform: translateX(-100%); }
-      66%  { transform: translateX(-100%); }
-      69%  { transform: translateX(-200%); }
-      100% { transform: translateX(-200%); }
-    }
+   
     
-    /* Responsive fix */
-    @media (max-width: 768px) {
-      .carousel-slide img {
-        height: auto;
-      }
-    }
-
-
-
-
-
 
     
+    .five{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 10px;
+    }
+    .five h2{
+        margin: 25px 5px;
+    }
+    .fiveimg {
+        display: flex;;
+        justify-content: space-between;
+    }
+    .fimg{
+        width: 19vw;
+        height: 45vh;
+        padding: 3px;
+    }
 
 
 
@@ -159,6 +162,8 @@
       background-color: #fff;
       border-top: 1px solid #ccc;
       flex-wrap: wrap;
+      border-top: 2px solid rgba(0, 0, 0, 0.256);
+      margin-top: 10px;
     }
 
     footer div {
@@ -175,6 +180,11 @@
     footer .social-icons a {
       text-decoration: none;
       color: inherit;
+    }
+
+    .footer1 a{
+        text-decoration: none;
+        color: orange;
     }
 
     /* Responsive Footer */
