@@ -92,6 +92,7 @@
     .oneimg{
         width: 99vw;
         height: 60%;
+        padding-top: 10px;
     }
 
 
@@ -108,10 +109,11 @@
       flex-direction: column;
       align-items: center;
       padding: 30px 10px;
+      margin-top: 25px;
     }
 
     .three h2 {
-      margin-bottom: 20px;
+      margin-bottom: 35px;
     }
 
     .threeimg {
